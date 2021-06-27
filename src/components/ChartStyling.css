@@ -1,0 +1,73 @@
+
+
+.chartSection{
+    width: 800px;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    border: 2px solid gray;
+}
+
+#formSection h1{
+    font-family: cursive;
+    color: rgb(60, 60, 196);
+}
+
+#formSection form{
+    width: 250px;
+    height: 185px;  
+    position: relative;
+    left: 10%; 
+}
+
+#formSection input {
+        height: 30px;
+        width: 200px;
+        border-color: gray;
+        border: 3px solid gray;
+        border-radius: 10px;
+        margin: 0 5px;
+       
+    }
+
+#formSection label {
+    font-family: cursive;
+}    
+    
+#formSection button{
+        margin-top: 30px;
+        height: 40px;
+        width: 100px;
+        background-color: rgb(60, 60, 196);
+        color: white;
+        border-radius: 10px;
+        border: 3px solid gray;
+    }
+
+.tableData{
+    height: 330px;
+    position: absolute;
+    left: 10%;
+}    
+
+#tableSection th {
+    font-family: cursive;
+}
+
+#tableSection table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
